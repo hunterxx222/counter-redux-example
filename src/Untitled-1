@@ -1,0 +1,15 @@
+const ar = [
+  {type: 'INC'},
+  {type: 'DEC'},
+  {type: 'INC'},
+  {type: 'DEC'}
+]
+
+for (var i = 0; i < ar.length; i++) {
+  if (ar[i]['type'] == 'INC'){
+    this.setState({count: this.state.count + 1});
+  } 
+  else if (ar[i]['type'] == 'DEC'){
+    this.setState({ count: this.state.count - 1 });
+  }
+}
